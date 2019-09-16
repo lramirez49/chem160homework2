@@ -1,0 +1,14 @@
+from random import choices
+ntrials=10000
+player1wins=0
+dice1=random.range(6)+1
+dice2=random.range(6)
+total=dice1+dice2
+for i in range(ntrails):
+    ndice=2
+    dice=choices(range(1:7),k=ndice)
+    dice.sort(reverse=True)
+    if player1wins > total:
+        print("player1wins=",total/ntrials)
+
+
